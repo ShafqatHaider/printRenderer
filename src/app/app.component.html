@@ -13,12 +13,30 @@
       <button class="border border-white px-4 py-2 rounded hover:bg-gray-700">
         REPORT
       </button>
+      <div
+        class="container-fluid px-4 text-center my-2"
+        style="background: #cecece; height: 100vh"
+      >
+        <div class="card shadow border bg-dark py-3">
+          <div class="row">
+            <div class="col-4">
+              <h4 class="text-light">Report</h4>
+            </div>
+            <div class="col-6"></div>
+            <div class="col-2 text-right">
+              <div class="btn-group justify-flex-end">
+                <button class="btn btn-light btn-block">Party Ledger</button>
+                <button class="btn btn-light">Item Ledger</button>
+                <button class="btn btn-light">Sale Report</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <app-print-form></app-print-form>
+      </div>
     </div>
-
-    <app-print-form></app-print-form>
-  </div>
-
-  <!-- 
+    <!-- 
 
 <div class="container">
   <header>
@@ -35,4 +53,5 @@
     <app-side-bar></app-side-bar>
   </main>
 </div> -->
+  </div>
 </div>
